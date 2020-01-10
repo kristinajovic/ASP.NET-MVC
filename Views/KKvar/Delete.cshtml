@@ -1,0 +1,64 @@
+﻿@model WebApplicationFPIS.Models.Kvar
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Kvar</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DatumKvara)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DatumKvara)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OpisKvara)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OpisKvara)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IDZaposlenog)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDZaposlenog)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GostID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GostID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BrojSobe)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BrojSobe)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

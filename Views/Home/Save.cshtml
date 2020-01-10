@@ -1,0 +1,44 @@
+﻿@model WebApplicationFPIS.Models.Kvar
+
+
+<h2>Save</h2>
+@using (Html.BeginForm("save", "home", FormMethod.Post, new { id = "popupForm" }))
+{
+    if (Model != null && Model.KvarID > 0)
+    {
+        @Html.HiddenFor(a => a.KvarID)
+    }
+
+
+    <div class="form-group">
+        <label>Datum kvara</label>
+        @Html.TextBoxFor(a => a.DatumKvara, new { @class = "form-control" })
+        @Html.ValidationMessageFor(a => a.DatumKvara)
+    </div>
+    <div class="form-group">
+        <label>Opis kvara</label>
+        @Html.TextBoxFor(a => a.OpisKvara, new { @class = "form-control" })
+        @Html.ValidationMessageFor(a => a.OpisKvara)
+    </div>
+    <div class="form-group">
+        <label>Zaposleni ID</label>
+        @Html.TextBoxFor(a => a.IDZaposlenog, new { @class = "form-control" })
+        @Html.ValidationMessageFor(a => a.IDZaposlenog)
+    </div>
+    <div class="form-group">
+        <label>Gost ID</label>
+        @Html.TextBoxFor(a => a.GostID, new { @class = "form-control" })
+        @Html.ValidationMessageFor(a => a.GostID)
+    </div>
+    <div class="form-group">
+        <label>Broj sobe</label>
+        @Html.TextBoxFor(a => a.BrojSobe, new { @class = "form-control" })
+        @Html.ValidationMessageFor(a => a.BrojSobe)
+    </div>
+
+    <div>
+        <input type="submit" value="Save" />
+    </div>
+
+}
+

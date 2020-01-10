@@ -1,0 +1,404 @@
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\WebApplicationFPIS.dll.config
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\WebApplicationFPIS.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\WebApplicationFPIS.pdb
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\csc.exe
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\csc.exe.config
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\csc.rsp
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\csi.exe
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\csi.exe.config
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\csi.rsp
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.AppContext.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Console.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.IO.Compression.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Security.Claims.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.ValueTuple.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\vbc.exe
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\vbc.exe.config
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\vbc.rsp
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\VBCSCompiler.exe
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\Antlr3.Runtime.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\EntityFramework.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\EntityFramework.SqlServer.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\Newtonsoft.Json.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.Helpers.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.Mvc.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.Optimization.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.Razor.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.WebPages.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.WebPages.Razor.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\WebGrease.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\EntityFramework.xml
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\EntityFramework.SqlServer.xml
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.Helpers.xml
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.Mvc.xml
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.Optimization.xml
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.Razor.xml
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.WebPages.xml
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.WebPages.Razor.xml
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\Newtonsoft.Json.xml
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\Antlr3.Runtime.pdb
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\obj\Debug\WebApplicationFPIS.csprojAssemblyReference.cache
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\obj\Debug\WebApplicationFPIS.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\obj\Debug\WebApplicationFPIS.csproj.CopyComplete
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\obj\Debug\WebApplicationFPIS.dll
+C:\Users\Korisnik\Desktop\Kristina Jovic FPIS\WebApplicationFPIS\obj\Debug\WebApplicationFPIS.pdb
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\WebApplicationFPIS.dll.config
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\WebApplicationFPIS.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\WebApplicationFPIS.pdb
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\csc.exe
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\csc.exe.config
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\csc.rsp
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\csi.exe
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\csi.exe.config
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\csi.rsp
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.AppContext.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Console.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.IO.Compression.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.IO.Pipes.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Security.Claims.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.ValueTuple.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\vbc.exe
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\vbc.exe.config
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\vbc.rsp
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\VBCSCompiler.exe
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\Antlr3.Runtime.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\EntityFramework.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\EntityFramework.SqlServer.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.Helpers.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.Mvc.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.Optimization.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.Razor.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.WebPages.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.WebPages.Razor.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\WebGrease.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\EntityFramework.xml
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\EntityFramework.SqlServer.xml
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.Helpers.xml
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.Mvc.xml
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.Optimization.xml
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.Razor.xml
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.WebPages.xml
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.WebPages.Razor.xml
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\Newtonsoft.Json.xml
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\Antlr3.Runtime.pdb
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\obj\Debug\WebApplicationFPIS.csproj.CopyComplete
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\obj\Debug\WebApplicationFPIS.dll
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\obj\Debug\WebApplicationFPIS.pdb
+C:\Users\admin\Desktop\Baze2\Kristina Jovic FPIS\WebApplicationFPIS\obj\Debug\WebApplicationFPIS.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\WebApplicationFPIS.dll.config
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\WebApplicationFPIS.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\WebApplicationFPIS.pdb
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\csc.exe
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\csc.exe.config
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\csc.rsp
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\csi.exe
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\csi.exe.config
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\csi.rsp
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.AppContext.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Console.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.IO.Compression.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.IO.Pipes.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Security.Claims.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.ValueTuple.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\vbc.exe
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\vbc.exe.config
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\vbc.rsp
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\VBCSCompiler.exe
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\Antlr3.Runtime.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\EntityFramework.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\EntityFramework.SqlServer.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.Helpers.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.Mvc.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.Optimization.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.Razor.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.WebPages.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.WebPages.Razor.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\WebGrease.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\EntityFramework.xml
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\EntityFramework.SqlServer.xml
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.Helpers.xml
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.Mvc.xml
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.Optimization.xml
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.Razor.xml
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.WebPages.xml
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.WebPages.Razor.xml
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\Newtonsoft.Json.xml
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\Antlr3.Runtime.pdb
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\obj\Debug\WebApplicationFPIS.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\obj\Debug\WebApplicationFPIS.csproj.CopyComplete
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\obj\Debug\WebApplicationFPIS.dll
+C:\Users\admin\Desktop\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\obj\Debug\WebApplicationFPIS.pdb
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\WebApplicationFPIS.dll.config
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\WebApplicationFPIS.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\WebApplicationFPIS.pdb
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\csc.exe
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\csc.exe.config
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\csc.rsp
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\csi.exe
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\csi.exe.config
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\csi.rsp
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.AppContext.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Console.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.IO.Compression.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.IO.Pipes.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Security.Claims.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.ValueTuple.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\vbc.exe
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\vbc.exe.config
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\vbc.rsp
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\VBCSCompiler.exe
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\Antlr3.Runtime.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\EntityFramework.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\EntityFramework.SqlServer.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.Helpers.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.Mvc.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.Optimization.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.Razor.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.WebPages.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.WebPages.Razor.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\WebGrease.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\EntityFramework.xml
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\EntityFramework.SqlServer.xml
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.Helpers.xml
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.Mvc.xml
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.Optimization.xml
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.Razor.xml
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.WebPages.xml
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\System.Web.WebPages.Razor.xml
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\Newtonsoft.Json.xml
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\Antlr3.Runtime.pdb
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\obj\Debug\WebApplicationFPIS.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\obj\Debug\WebApplicationFPIS.csproj.CopyComplete
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\obj\Debug\WebApplicationFPIS.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\WebApplicationFPIS\obj\Debug\WebApplicationFPIS.pdb
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\WebApplicationFPIS.dll.config
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\WebApplicationFPIS.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\WebApplicationFPIS.pdb
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\csc.exe
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\csc.exe.config
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\csc.rsp
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\csi.exe
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\csi.exe.config
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\csi.rsp
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\System.AppContext.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\System.Console.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\System.IO.Compression.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\System.IO.Pipes.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\System.Security.Claims.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\System.ValueTuple.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\vbc.exe
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\vbc.exe.config
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\vbc.rsp
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\VBCSCompiler.exe
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\Antlr3.Runtime.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\EntityFramework.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\EntityFramework.SqlServer.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\Microsoft.OData.Edm.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\NPOI.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\NPOI.OOXML.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\NPOI.OpenXml4Net.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\NPOI.OpenXmlFormats.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\System.Web.Helpers.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\System.Web.Mvc.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\System.Web.Optimization.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\System.Web.Razor.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\System.Web.WebPages.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\System.Web.WebPages.Razor.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\WebGrease.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\EntityFramework.xml
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\EntityFramework.SqlServer.xml
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\ICSharpCode.SharpZipLib.xml
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\Microsoft.OData.Edm.xml
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\System.Web.Helpers.xml
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\System.Web.Mvc.xml
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\System.Web.Optimization.xml
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\System.Web.Razor.xml
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\System.Web.WebPages.xml
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\System.Web.WebPages.Razor.xml
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\Newtonsoft.Json.xml
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\Antlr3.Runtime.pdb
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\obj\Debug\WebApplicationFPIS.csproj.CopyComplete
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\obj\Debug\WebApplicationFPIS.dll
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\obj\Debug\WebApplicationFPIS.pdb
+C:\Users\admin\Desktop\Baze2\FPIS\FPIS Kristina Jovic\prost slucaj\Kristina Jovic FPIS\spa\WebApplicationFPIS\obj\Debug\WebApplicationFPIS.csprojAssemblyReference.cache

@@ -1,0 +1,58 @@
+﻿@model WebApplicationFPIS.Models.Kvar
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Kvar</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DatumKvara)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DatumKvara)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OpisKvara)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OpisKvara)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IDZaposlenog)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDZaposlenog)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GostID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GostID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BrojSobe)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BrojSobe)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.KvarID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

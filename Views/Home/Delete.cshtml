@@ -1,0 +1,35 @@
+﻿@model WebApplicationFPIS.Models.Kvar
+
+<h2>Delete Employee</h2>
+@using (Html.BeginForm("delete", "home", FormMethod.Post, new { id = "popupForm" }))
+{
+    @Html.HiddenFor(a => a.KvarID)
+    <div class="form-group">
+        <label>Datum kvara</label>
+        <p>@Model.DatumKvara</p>
+    </div>
+
+    <div class="form-group">
+        <label>Last Name</label>
+        <p>@Model.OpisKvara</p>
+    </div>
+
+    <div class="form-group">
+        <label>Email</label>
+        <p>@Model.IDZaposlenog</p>
+    </div>
+
+    <div class="form-group">
+        <label>City</label>
+        <p>@Model.GostID</p>
+    </div>
+
+    <div class="form-group">
+        <label>Country</label>
+        <p>@Model.BrojSobe</p>
+    </div>
+
+    <div>
+        <input type="submit" value="Delete" />
+    </div>
+}

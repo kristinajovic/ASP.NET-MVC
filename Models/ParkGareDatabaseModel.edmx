@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="BazaParkGateModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Gost">
+          <Key>
+            <PropertyRef Name="SifraGosta" />
+          </Key>
+          <Property Name="SifraGosta" Type="int" Nullable="false" />
+          <Property Name="Ime" Type="nvarchar" MaxLength="500" Nullable="false" />
+          <Property Name="Prezime" Type="nvarchar" MaxLength="500" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Kvar">
+          <Key>
+            <PropertyRef Name="KvarID" />
+          </Key>
+          <Property Name="KvarID" Type="int" Nullable="false" />
+          <Property Name="DatumKvara" Type="date" Nullable="false" />
+          <Property Name="OpisKvara" Type="nvarchar" MaxLength="500" Nullable="false" />
+          <Property Name="IDZaposlenog" Type="int" Nullable="false" />
+          <Property Name="GostID" Type="int" Nullable="false" />
+          <Property Name="BrojSobe" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Rezervacija">
+          <Key>
+            <PropertyRef Name="IDRezervacije" />
+          </Key>
+          <Property Name="IDRezervacije" Type="int" Nullable="false" />
+          <Property Name="DatumDolaska" Type="date" Nullable="false" />
+          <Property Name="DatumOdlaska" Type="date" Nullable="false" />
+          <Property Name="BrojSobe" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Soba">
+          <Key>
+            <PropertyRef Name="BrojSobe" />
+          </Key>
+          <Property Name="BrojSobe" Type="int" Nullable="false" />
+          <Property Name="BrojSprata" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="StavkaZahtevaZaDodatneUsluge">
+          <Key>
+            <PropertyRef Name="ZahtevID" />
+            <PropertyRef Name="StavkaID" />
+          </Key>
+          <Property Name="ZahtevID" Type="int" Nullable="false" />
+          <Property Name="StavkaID" Type="int" Nullable="false" />
+          <Property Name="Kolicina" Type="int" Nullable="false" />
+          <Property Name="Naziv" Type="nvarchar" MaxLength="500" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ZahtevZaDodatneUsluge">
+          <Key>
+            <PropertyRef Name="IDZahteva" />
+          </Key>
+          <Property Name="IDZahteva" Type="int" Nullable="false" />
+          <Property Name="DatumRealizacije" Type="date" Nullable="false" />
+          <Property Name="GostID" Type="int" Nullable="false" />
+          <Property Name="ZaposleniID" Type="int" Nullable="false" />
+          <Property Name="RezervacijaID" Type="int" Nullable="false" />
+          <Property Name="Status" Type="int" />
+        </EntityType>
+        <EntityType Name="Zaposleni">
+          <Key>
+            <PropertyRef Name="ZaposleniID" />
+          </Key>
+          <Property Name="ZaposleniID" Type="int" Nullable="false" />
+          <Property Name="Ime" Type="nvarchar" MaxLength="500" Nullable="false" />
+          <Property Name="Prezime" Type="nvarchar" MaxLength="500" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Kvar_Gost">
+          <End Role="Gost" Type="Self.Gost" Multiplicity="1" />
+          <End Role="Kvar" Type="Self.Kvar" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Gost">
+              <PropertyRef Name="SifraGosta" />
+            </Principal>
+            <Dependent Role="Kvar">
+              <PropertyRef Name="GostID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Kvar_Soba">
+          <End Role="Soba" Type="Self.Soba" Multiplicity="1" />
+          <End Role="Kvar" Type="Self.Kvar" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Soba">
+              <PropertyRef Name="BrojSobe" />
+            </Principal>
+            <Dependent Role="Kvar">
+              <PropertyRef Name="BrojSobe" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Kvar_Zaposleni">
+          <End Role="Zaposleni" Type="Self.Zaposleni" Multiplicity="1" />
+          <End Role="Kvar" Type="Self.Kvar" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Zaposleni">
+              <PropertyRef Name="ZaposleniID" />
+            </Principal>
+            <Dependent Role="Kvar">
+              <PropertyRef Name="IDZaposlenog" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Rezervacija_Soba">
+          <End Role="Soba" Type="Self.Soba" Multiplicity="1" />
+          <End Role="Rezervacija" Type="Self.Rezervacija" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Soba">
+              <PropertyRef Name="BrojSobe" />
+            </Principal>
+            <Dependent Role="Rezervacija">
+              <PropertyRef Name="BrojSobe" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StavkaZahtevaZaDodatneUsluge_ZahtevZaDodatneUsluge">
+          <End Role="ZahtevZaDodatneUsluge" Type="Self.ZahtevZaDodatneUsluge" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="StavkaZahtevaZaDodatneUsluge" Type="Self.StavkaZahtevaZaDodatneUsluge" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ZahtevZaDodatneUsluge">
+              <PropertyRef Name="IDZahteva" />
+            </Principal>
+            <Dependent Role="StavkaZahtevaZaDodatneUsluge">
+              <PropertyRef Name="ZahtevID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ZahtevZaDodatneUsluge_Gost">
+          <End Role="Gost" Type="Self.Gost" Multiplicity="1" />
+          <End Role="ZahtevZaDodatneUsluge" Type="Self.ZahtevZaDodatneUsluge" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Gost">
+              <PropertyRef Name="SifraGosta" />
+            </Principal>
+            <Dependent Role="ZahtevZaDodatneUsluge">
+              <PropertyRef Name="GostID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ZahtevZaDodatneUsluge_Rezervacija">
+          <End Role="Rezervacija" Type="Self.Rezervacija" Multiplicity="1" />
+          <End Role="ZahtevZaDodatneUsluge" Type="Self.ZahtevZaDodatneUsluge" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Rezervacija">
+              <PropertyRef Name="IDRezervacije" />
+            </Principal>
+            <Dependent Role="ZahtevZaDodatneUsluge">
+              <PropertyRef Name="RezervacijaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ZahtevZaDodatneUsluge_Zaposleni">
+          <End Role="Zaposleni" Type="Self.Zaposleni" Multiplicity="1" />
+          <End Role="ZahtevZaDodatneUsluge" Type="Self.ZahtevZaDodatneUsluge" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="Zaposleni">
+              <PropertyRef Name="ZaposleniID" />
+            </Principal>
+            <Dependent Role="ZahtevZaDodatneUsluge">
+              <PropertyRef Name="IDZahteva" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="BazaParkGateModelStoreContainer">
+          <EntitySet Name="Gost" EntityType="Self.Gost" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Kvar" EntityType="Self.Kvar" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Rezervacija" EntityType="Self.Rezervacija" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Soba" EntityType="Self.Soba" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="StavkaZahtevaZaDodatneUsluge" EntityType="Self.StavkaZahtevaZaDodatneUsluge" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ZahtevZaDodatneUsluge" EntityType="Self.ZahtevZaDodatneUsluge" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Zaposleni" EntityType="Self.Zaposleni" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Kvar_Gost" Association="Self.FK_Kvar_Gost">
+            <End Role="Gost" EntitySet="Gost" />
+            <End Role="Kvar" EntitySet="Kvar" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Kvar_Soba" Association="Self.FK_Kvar_Soba">
+            <End Role="Soba" EntitySet="Soba" />
+            <End Role="Kvar" EntitySet="Kvar" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Kvar_Zaposleni" Association="Self.FK_Kvar_Zaposleni">
+            <End Role="Zaposleni" EntitySet="Zaposleni" />
+            <End Role="Kvar" EntitySet="Kvar" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Rezervacija_Soba" Association="Self.FK_Rezervacija_Soba">
+            <End Role="Soba" EntitySet="Soba" />
+            <End Role="Rezervacija" EntitySet="Rezervacija" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StavkaZahtevaZaDodatneUsluge_ZahtevZaDodatneUsluge" Association="Self.FK_StavkaZahtevaZaDodatneUsluge_ZahtevZaDodatneUsluge">
+            <End Role="ZahtevZaDodatneUsluge" EntitySet="ZahtevZaDodatneUsluge" />
+            <End Role="StavkaZahtevaZaDodatneUsluge" EntitySet="StavkaZahtevaZaDodatneUsluge" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ZahtevZaDodatneUsluge_Gost" Association="Self.FK_ZahtevZaDodatneUsluge_Gost">
+            <End Role="Gost" EntitySet="Gost" />
+            <End Role="ZahtevZaDodatneUsluge" EntitySet="ZahtevZaDodatneUsluge" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ZahtevZaDodatneUsluge_Rezervacija" Association="Self.FK_ZahtevZaDodatneUsluge_Rezervacija">
+            <End Role="Rezervacija" EntitySet="Rezervacija" />
+            <End Role="ZahtevZaDodatneUsluge" EntitySet="ZahtevZaDodatneUsluge" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ZahtevZaDodatneUsluge_Zaposleni" Association="Self.FK_ZahtevZaDodatneUsluge_Zaposleni">
+            <End Role="Zaposleni" EntitySet="Zaposleni" />
+            <End Role="ZahtevZaDodatneUsluge" EntitySet="ZahtevZaDodatneUsluge" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="BazaParkGateModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Gost">
+          <Key>
+            <PropertyRef Name="SifraGosta" />
+          </Key>
+          <Property Name="SifraGosta" Type="Int32" Nullable="false" />
+          <Property Name="Ime" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Prezime" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Kvar" Relationship="Self.FK_Kvar_Gost" FromRole="Gost" ToRole="Kvar" />
+          <NavigationProperty Name="ZahtevZaDodatneUsluge" Relationship="Self.FK_ZahtevZaDodatneUsluge_Gost" FromRole="Gost" ToRole="ZahtevZaDodatneUsluge" />
+        </EntityType>
+        <EntityType Name="Kvar">
+          <Key>
+            <PropertyRef Name="KvarID" />
+          </Key>
+          <Property Name="KvarID" Type="Int32" Nullable="false" />
+          <Property Name="DatumKvara" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="OpisKvara" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="IDZaposlenog" Type="Int32" Nullable="false" />
+          <Property Name="GostID" Type="Int32" Nullable="false" />
+          <Property Name="BrojSobe" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Gost" Relationship="Self.FK_Kvar_Gost" FromRole="Kvar" ToRole="Gost" />
+          <NavigationProperty Name="Soba" Relationship="Self.FK_Kvar_Soba" FromRole="Kvar" ToRole="Soba" />
+          <NavigationProperty Name="Zaposleni" Relationship="Self.FK_Kvar_Zaposleni" FromRole="Kvar" ToRole="Zaposleni" />
+        </EntityType>
+        <EntityType Name="Rezervacija">
+          <Key>
+            <PropertyRef Name="IDRezervacije" />
+          </Key>
+          <Property Name="IDRezervacije" Type="Int32" Nullable="false" />
+          <Property Name="DatumDolaska" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="DatumOdlaska" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="BrojSobe" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Soba" Relationship="Self.FK_Rezervacija_Soba" FromRole="Rezervacija" ToRole="Soba" />
+          <NavigationProperty Name="ZahtevZaDodatneUsluge" Relationship="Self.FK_ZahtevZaDodatneUsluge_Rezervacija" FromRole="Rezervacija" ToRole="ZahtevZaDodatneUsluge" />
+        </EntityType>
+        <EntityType Name="Soba">
+          <Key>
+            <PropertyRef Name="BrojSobe" />
+          </Key>
+          <Property Name="BrojSobe" Type="Int32" Nullable="false" />
+          <Property Name="BrojSprata" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Kvar" Relationship="Self.FK_Kvar_Soba" FromRole="Soba" ToRole="Kvar" />
+          <NavigationProperty Name="Rezervacija" Relationship="Self.FK_Rezervacija_Soba" FromRole="Soba" ToRole="Rezervacija" />
+        </EntityType>
+        <EntityType Name="StavkaZahtevaZaDodatneUsluge">
+          <Key>
+            <PropertyRef Name="ZahtevID" />
+            <PropertyRef Name="StavkaID" />
+          </Key>
+          <Property Name="ZahtevID" Type="Int32" Nullable="false" />
+          <Property Name="StavkaID" Type="Int32" Nullable="false" />
+          <Property Name="Kolicina" Type="Int32" Nullable="false" />
+          <Property Name="Naziv" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="ZahtevZaDodatneUsluge" Relationship="Self.FK_StavkaZahtevaZaDodatneUsluge_ZahtevZaDodatneUsluge" FromRole="StavkaZahtevaZaDodatneUsluge" ToRole="ZahtevZaDodatneUsluge" />
+        </EntityType>
+        <EntityType Name="ZahtevZaDodatneUsluge">
+          <Key>
+            <PropertyRef Name="IDZahteva" />
+          </Key>
+          <Property Name="IDZahteva" Type="Int32" Nullable="false" />
+          <Property Name="DatumRealizacije" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="GostID" Type="Int32" Nullable="false" />
+          <Property Name="ZaposleniID" Type="Int32" Nullable="false" />
+          <Property Name="RezervacijaID" Type="Int32" Nullable="false" />
+          <Property Name="Status" Type="Int32" />
+          <NavigationProperty Name="Gost" Relationship="Self.FK_ZahtevZaDodatneUsluge_Gost" FromRole="ZahtevZaDodatneUsluge" ToRole="Gost" />
+          <NavigationProperty Name="Rezervacija" Relationship="Self.FK_ZahtevZaDodatneUsluge_Rezervacija" FromRole="ZahtevZaDodatneUsluge" ToRole="Rezervacija" />
+          <NavigationProperty Name="StavkaZahtevaZaDodatneUsluge" Relationship="Self.FK_StavkaZahtevaZaDodatneUsluge_ZahtevZaDodatneUsluge" FromRole="ZahtevZaDodatneUsluge" ToRole="StavkaZahtevaZaDodatneUsluge" />
+          <NavigationProperty Name="Zaposleni" Relationship="Self.FK_ZahtevZaDodatneUsluge_Zaposleni" FromRole="ZahtevZaDodatneUsluge" ToRole="Zaposleni" />
+        </EntityType>
+        <EntityType Name="Zaposleni">
+          <Key>
+            <PropertyRef Name="ZaposleniID" />
+          </Key>
+          <Property Name="ZaposleniID" Type="Int32" Nullable="false" />
+          <Property Name="Ime" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Prezime" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Kvar" Relationship="Self.FK_Kvar_Zaposleni" FromRole="Zaposleni" ToRole="Kvar" />
+          <NavigationProperty Name="ZahtevZaDodatneUsluge" Relationship="Self.FK_ZahtevZaDodatneUsluge_Zaposleni" FromRole="Zaposleni" ToRole="ZahtevZaDodatneUsluge" />
+        </EntityType>
+        <Association Name="FK_Kvar_Gost">
+          <End Role="Gost" Type="Self.Gost" Multiplicity="1" />
+          <End Role="Kvar" Type="Self.Kvar" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Gost">
+              <PropertyRef Name="SifraGosta" />
+            </Principal>
+            <Dependent Role="Kvar">
+              <PropertyRef Name="GostID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ZahtevZaDodatneUsluge_Gost">
+          <End Role="Gost" Type="Self.Gost" Multiplicity="1" />
+          <End Role="ZahtevZaDodatneUsluge" Type="Self.ZahtevZaDodatneUsluge" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Gost">
+              <PropertyRef Name="SifraGosta" />
+            </Principal>
+            <Dependent Role="ZahtevZaDodatneUsluge">
+              <PropertyRef Name="GostID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Kvar_Soba">
+          <End Role="Soba" Type="Self.Soba" Multiplicity="1" />
+          <End Role="Kvar" Type="Self.Kvar" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Soba">
+              <PropertyRef Name="BrojSobe" />
+            </Principal>
+            <Dependent Role="Kvar">
+              <PropertyRef Name="BrojSobe" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Kvar_Zaposleni">
+          <End Role="Zaposleni" Type="Self.Zaposleni" Multiplicity="1" />
+          <End Role="Kvar" Type="Self.Kvar" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Zaposleni">
+              <PropertyRef Name="ZaposleniID" />
+            </Principal>
+            <Dependent Role="Kvar">
+              <PropertyRef Name="IDZaposlenog" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Rezervacija_Soba">
+          <End Role="Soba" Type="Self.Soba" Multiplicity="1" />
+          <End Role="Rezervacija" Type="Self.Rezervacija" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Soba">
+              <PropertyRef Name="BrojSobe" />
+            </Principal>
+            <Dependent Role="Rezervacija">
+              <PropertyRef Name="BrojSobe" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ZahtevZaDodatneUsluge_Rezervacija">
+          <End Role="Rezervacija" Type="Self.Rezervacija" Multiplicity="1" />
+          <End Role="ZahtevZaDodatneUsluge" Type="Self.ZahtevZaDodatneUsluge" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Rezervacija">
+              <PropertyRef Name="IDRezervacije" />
+            </Principal>
+            <Dependent Role="ZahtevZaDodatneUsluge">
+              <PropertyRef Name="RezervacijaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StavkaZahtevaZaDodatneUsluge_ZahtevZaDodatneUsluge">
+          <End Role="ZahtevZaDodatneUsluge" Type="Self.ZahtevZaDodatneUsluge" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="StavkaZahtevaZaDodatneUsluge" Type="Self.StavkaZahtevaZaDodatneUsluge" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ZahtevZaDodatneUsluge">
+              <PropertyRef Name="IDZahteva" />
+            </Principal>
+            <Dependent Role="StavkaZahtevaZaDodatneUsluge">
+              <PropertyRef Name="ZahtevID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ZahtevZaDodatneUsluge_Zaposleni">
+          <End Role="Zaposleni" Type="Self.Zaposleni" Multiplicity="1" />
+          <End Role="ZahtevZaDodatneUsluge" Type="Self.ZahtevZaDodatneUsluge" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="Zaposleni">
+              <PropertyRef Name="ZaposleniID" />
+            </Principal>
+            <Dependent Role="ZahtevZaDodatneUsluge">
+              <PropertyRef Name="IDZahteva" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="BazaParkGateEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Gost" EntityType="Self.Gost" />
+          <EntitySet Name="Kvar" EntityType="Self.Kvar" />
+          <EntitySet Name="Rezervacija" EntityType="Self.Rezervacija" />
+          <EntitySet Name="Soba" EntityType="Self.Soba" />
+          <EntitySet Name="StavkaZahtevaZaDodatneUsluge" EntityType="Self.StavkaZahtevaZaDodatneUsluge" />
+          <EntitySet Name="ZahtevZaDodatneUsluge" EntityType="Self.ZahtevZaDodatneUsluge" />
+          <EntitySet Name="Zaposleni" EntityType="Self.Zaposleni" />
+          <AssociationSet Name="FK_Kvar_Gost" Association="Self.FK_Kvar_Gost">
+            <End Role="Gost" EntitySet="Gost" />
+            <End Role="Kvar" EntitySet="Kvar" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ZahtevZaDodatneUsluge_Gost" Association="Self.FK_ZahtevZaDodatneUsluge_Gost">
+            <End Role="Gost" EntitySet="Gost" />
+            <End Role="ZahtevZaDodatneUsluge" EntitySet="ZahtevZaDodatneUsluge" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Kvar_Soba" Association="Self.FK_Kvar_Soba">
+            <End Role="Soba" EntitySet="Soba" />
+            <End Role="Kvar" EntitySet="Kvar" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Kvar_Zaposleni" Association="Self.FK_Kvar_Zaposleni">
+            <End Role="Zaposleni" EntitySet="Zaposleni" />
+            <End Role="Kvar" EntitySet="Kvar" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Rezervacija_Soba" Association="Self.FK_Rezervacija_Soba">
+            <End Role="Soba" EntitySet="Soba" />
+            <End Role="Rezervacija" EntitySet="Rezervacija" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ZahtevZaDodatneUsluge_Rezervacija" Association="Self.FK_ZahtevZaDodatneUsluge_Rezervacija">
+            <End Role="Rezervacija" EntitySet="Rezervacija" />
+            <End Role="ZahtevZaDodatneUsluge" EntitySet="ZahtevZaDodatneUsluge" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StavkaZahtevaZaDodatneUsluge_ZahtevZaDodatneUsluge" Association="Self.FK_StavkaZahtevaZaDodatneUsluge_ZahtevZaDodatneUsluge">
+            <End Role="ZahtevZaDodatneUsluge" EntitySet="ZahtevZaDodatneUsluge" />
+            <End Role="StavkaZahtevaZaDodatneUsluge" EntitySet="StavkaZahtevaZaDodatneUsluge" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ZahtevZaDodatneUsluge_Zaposleni" Association="Self.FK_ZahtevZaDodatneUsluge_Zaposleni">
+            <End Role="Zaposleni" EntitySet="Zaposleni" />
+            <End Role="ZahtevZaDodatneUsluge" EntitySet="ZahtevZaDodatneUsluge" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="BazaParkGateModelStoreContainer" CdmEntityContainer="BazaParkGateEntities">
+          <EntitySetMapping Name="Gost">
+            <EntityTypeMapping TypeName="BazaParkGateModel.Gost">
+              <MappingFragment StoreEntitySet="Gost">
+                <ScalarProperty Name="SifraGosta" ColumnName="SifraGosta" />
+                <ScalarProperty Name="Ime" ColumnName="Ime" />
+                <ScalarProperty Name="Prezime" ColumnName="Prezime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Kvar">
+            <EntityTypeMapping TypeName="BazaParkGateModel.Kvar">
+              <MappingFragment StoreEntitySet="Kvar">
+                <ScalarProperty Name="KvarID" ColumnName="KvarID" />
+                <ScalarProperty Name="DatumKvara" ColumnName="DatumKvara" />
+                <ScalarProperty Name="OpisKvara" ColumnName="OpisKvara" />
+                <ScalarProperty Name="IDZaposlenog" ColumnName="IDZaposlenog" />
+                <ScalarProperty Name="GostID" ColumnName="GostID" />
+                <ScalarProperty Name="BrojSobe" ColumnName="BrojSobe" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Rezervacija">
+            <EntityTypeMapping TypeName="BazaParkGateModel.Rezervacija">
+              <MappingFragment StoreEntitySet="Rezervacija">
+                <ScalarProperty Name="IDRezervacije" ColumnName="IDRezervacije" />
+                <ScalarProperty Name="DatumDolaska" ColumnName="DatumDolaska" />
+                <ScalarProperty Name="DatumOdlaska" ColumnName="DatumOdlaska" />
+                <ScalarProperty Name="BrojSobe" ColumnName="BrojSobe" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Soba">
+            <EntityTypeMapping TypeName="BazaParkGateModel.Soba">
+              <MappingFragment StoreEntitySet="Soba">
+                <ScalarProperty Name="BrojSobe" ColumnName="BrojSobe" />
+                <ScalarProperty Name="BrojSprata" ColumnName="BrojSprata" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="StavkaZahtevaZaDodatneUsluge">
+            <EntityTypeMapping TypeName="BazaParkGateModel.StavkaZahtevaZaDodatneUsluge">
+              <MappingFragment StoreEntitySet="StavkaZahtevaZaDodatneUsluge">
+                <ScalarProperty Name="ZahtevID" ColumnName="ZahtevID" />
+                <ScalarProperty Name="StavkaID" ColumnName="StavkaID" />
+                <ScalarProperty Name="Kolicina" ColumnName="Kolicina" />
+                <ScalarProperty Name="Naziv" ColumnName="Naziv" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ZahtevZaDodatneUsluge">
+            <EntityTypeMapping TypeName="BazaParkGateModel.ZahtevZaDodatneUsluge">
+              <MappingFragment StoreEntitySet="ZahtevZaDodatneUsluge">
+                <ScalarProperty Name="IDZahteva" ColumnName="IDZahteva" />
+                <ScalarProperty Name="DatumRealizacije" ColumnName="DatumRealizacije" />
+                <ScalarProperty Name="GostID" ColumnName="GostID" />
+                <ScalarProperty Name="ZaposleniID" ColumnName="ZaposleniID" />
+                <ScalarProperty Name="RezervacijaID" ColumnName="RezervacijaID" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Zaposleni">
+            <EntityTypeMapping TypeName="BazaParkGateModel.Zaposleni">
+              <MappingFragment StoreEntitySet="Zaposleni">
+                <ScalarProperty Name="ZaposleniID" ColumnName="ZaposleniID" />
+                <ScalarProperty Name="Ime" ColumnName="Ime" />
+                <ScalarProperty Name="Prezime" ColumnName="Prezime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

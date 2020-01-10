@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="129108c1473445e6964fdbd56611937f" Name="Diagram1">
+        <EntityTypeShape EntityType="BazaParkGateModel.Gost" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BazaParkGateModel.Kvar" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BazaParkGateModel.Rezervacija" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BazaParkGateModel.Soba" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BazaParkGateModel.StavkaZahtevaZaDodatneUsluge" Width="1.5" PointX="7.5" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BazaParkGateModel.ZahtevZaDodatneUsluge" Width="1.5" PointX="5.25" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BazaParkGateModel.Zaposleni" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <AssociationConnector Association="BazaParkGateModel.FK_Kvar_Gost" ManuallyRouted="false" />
+        <AssociationConnector Association="BazaParkGateModel.FK_ZahtevZaDodatneUsluge_Gost" ManuallyRouted="false" />
+        <AssociationConnector Association="BazaParkGateModel.FK_Kvar_Soba" ManuallyRouted="false" />
+        <AssociationConnector Association="BazaParkGateModel.FK_Kvar_Zaposleni" ManuallyRouted="false" />
+        <AssociationConnector Association="BazaParkGateModel.FK_Rezervacija_Soba" ManuallyRouted="false" />
+        <AssociationConnector Association="BazaParkGateModel.FK_ZahtevZaDodatneUsluge_Rezervacija" ManuallyRouted="false" />
+        <AssociationConnector Association="BazaParkGateModel.FK_StavkaZahtevaZaDodatneUsluge_ZahtevZaDodatneUsluge" ManuallyRouted="false" />
+        <AssociationConnector Association="BazaParkGateModel.FK_ZahtevZaDodatneUsluge_Zaposleni" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

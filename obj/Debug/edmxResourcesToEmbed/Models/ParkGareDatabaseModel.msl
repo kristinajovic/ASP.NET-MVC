@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BazaParkGateModelStoreContainer" CdmEntityContainer="BazaParkGateEntities">
+    <EntitySetMapping Name="Gost">
+      <EntityTypeMapping TypeName="BazaParkGateModel.Gost">
+        <MappingFragment StoreEntitySet="Gost">
+          <ScalarProperty Name="SifraGosta" ColumnName="SifraGosta" />
+          <ScalarProperty Name="Ime" ColumnName="Ime" />
+          <ScalarProperty Name="Prezime" ColumnName="Prezime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kvar">
+      <EntityTypeMapping TypeName="BazaParkGateModel.Kvar">
+        <MappingFragment StoreEntitySet="Kvar">
+          <ScalarProperty Name="KvarID" ColumnName="KvarID" />
+          <ScalarProperty Name="DatumKvara" ColumnName="DatumKvara" />
+          <ScalarProperty Name="OpisKvara" ColumnName="OpisKvara" />
+          <ScalarProperty Name="IDZaposlenog" ColumnName="IDZaposlenog" />
+          <ScalarProperty Name="GostID" ColumnName="GostID" />
+          <ScalarProperty Name="BrojSobe" ColumnName="BrojSobe" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rezervacija">
+      <EntityTypeMapping TypeName="BazaParkGateModel.Rezervacija">
+        <MappingFragment StoreEntitySet="Rezervacija">
+          <ScalarProperty Name="IDRezervacije" ColumnName="IDRezervacije" />
+          <ScalarProperty Name="DatumDolaska" ColumnName="DatumDolaska" />
+          <ScalarProperty Name="DatumOdlaska" ColumnName="DatumOdlaska" />
+          <ScalarProperty Name="BrojSobe" ColumnName="BrojSobe" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Soba">
+      <EntityTypeMapping TypeName="BazaParkGateModel.Soba">
+        <MappingFragment StoreEntitySet="Soba">
+          <ScalarProperty Name="BrojSobe" ColumnName="BrojSobe" />
+          <ScalarProperty Name="BrojSprata" ColumnName="BrojSprata" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StavkaZahtevaZaDodatneUsluge">
+      <EntityTypeMapping TypeName="BazaParkGateModel.StavkaZahtevaZaDodatneUsluge">
+        <MappingFragment StoreEntitySet="StavkaZahtevaZaDodatneUsluge">
+          <ScalarProperty Name="ZahtevID" ColumnName="ZahtevID" />
+          <ScalarProperty Name="StavkaID" ColumnName="StavkaID" />
+          <ScalarProperty Name="Kolicina" ColumnName="Kolicina" />
+          <ScalarProperty Name="Naziv" ColumnName="Naziv" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ZahtevZaDodatneUsluge">
+      <EntityTypeMapping TypeName="BazaParkGateModel.ZahtevZaDodatneUsluge">
+        <MappingFragment StoreEntitySet="ZahtevZaDodatneUsluge">
+          <ScalarProperty Name="IDZahteva" ColumnName="IDZahteva" />
+          <ScalarProperty Name="DatumRealizacije" ColumnName="DatumRealizacije" />
+          <ScalarProperty Name="GostID" ColumnName="GostID" />
+          <ScalarProperty Name="ZaposleniID" ColumnName="ZaposleniID" />
+          <ScalarProperty Name="RezervacijaID" ColumnName="RezervacijaID" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Zaposleni">
+      <EntityTypeMapping TypeName="BazaParkGateModel.Zaposleni">
+        <MappingFragment StoreEntitySet="Zaposleni">
+          <ScalarProperty Name="ZaposleniID" ColumnName="ZaposleniID" />
+          <ScalarProperty Name="Ime" ColumnName="Ime" />
+          <ScalarProperty Name="Prezime" ColumnName="Prezime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
